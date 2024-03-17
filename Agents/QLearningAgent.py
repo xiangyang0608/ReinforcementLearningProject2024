@@ -1,4 +1,4 @@
-import agent
+from . import agent
 import numpy as np
 
 

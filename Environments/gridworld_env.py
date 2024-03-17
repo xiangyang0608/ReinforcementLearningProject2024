@@ -1,9 +1,9 @@
-from environment import BaseEnvironment
+from . import environment
 import matplotlib.pyplot as plt
 import numpy as np
 from copy import deepcopy
 
-class Environment(BaseEnvironment):
+class Environment(environment.BaseEnvironment):
     """Implements the environment for an RLGlue environment
 
     Note:
